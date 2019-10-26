@@ -1,0 +1,8 @@
+{
+    "id": "payment_intent_123",
+    "object": "payment_intent",
+    "livemode": false,
+    "status": "requires_capture",
+    "amount": 300
+  }
+  
