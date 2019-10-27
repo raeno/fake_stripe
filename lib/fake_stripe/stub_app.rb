@@ -152,6 +152,18 @@ module FakeStripe
       json_response 200, fixture('retrieve_payment_intent')
     end
 
+    post '/v1/payment_intents/:payment_intent_id/cancel' do
+      json_response 200, fixture('retrieve_payment_intent')
+    end
+
+    post '/v1/payment_intents/:payment_intent_id' do
+      json_response 200, fixture('update_payment_intent')
+    end
+
+    post '/v1/payment_intents/:payment_intent_id/capture' do
+      json_response 200, fixture('capture_payment_intent')
+    end
+
     # Plans
     post '/v1/plans' do
       FakeStripe.plan_count += 1
