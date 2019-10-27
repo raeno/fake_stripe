@@ -2,7 +2,8 @@
     "id": "payment_intent_123",
     "object": "payment_intent",
     "livemode": false,
-    "status": "requires_capture",
-    "amount": 300
+    "status": "requires_payment_method",
+    "amount": 300,
+    "client_secret": "pi_client_secret_AB"
   }
   
