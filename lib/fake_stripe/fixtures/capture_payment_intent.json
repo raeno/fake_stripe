@@ -1,0 +1,9 @@
+{
+    "id": "payment_intent_123",
+    "object": "payument_intent",
+    "created": 1394732018,
+    "livemode": false,
+    "status": "succeeded",
+    "amount": 500,
+    "client_secret": "pi_client_secret_ABC"
+}
