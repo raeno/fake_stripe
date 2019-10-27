@@ -1,9 +1,44 @@
 {
-    "id": "payment_intent_123",
-    "object": "payument_intent",
-    "created": 1394732018,
+    "id": "pi_1Datp92eZvKYlo2C7NiRTpCG",
+    "object": "payment_intent",
+    "amount": 1000,
+    "amount_capturable": 0,
+    "amount_received": 0,
+    "application": null,
+    "application_fee_amount": null,
+    "canceled_at": null,
+    "cancellation_reason": null,
+    "capture_method": "automatic",
+    "charges": {
+      "object": "list",
+      "data": [],
+      "has_more": false,
+      "url": "/v1/charges?payment_intent=pi_1Datp92eZvKYlo2C7NiRTpCG"
+    },
+    "client_secret": "pi_1Datp92eZvKYlo2C7NiRTpCG_secret_htXGjoKpDnWgW4HiGhmpHeYt0",
+    "confirmation_method": "automatic",
+    "created": 1543276147,
+    "currency": "usd",
+    "customer": "cus_E2zoCd8Gk0sHrf",
+    "description": null,
+    "invoice": null,
+    "last_payment_error": null,
     "livemode": false,
+    "metadata": {},
+    "next_action": null,
+    "on_behalf_of": null,
+    "payment_method": "card",
+    "payment_method_options": {},
+    "payment_method_types": [
+      "card"
+    ],
+    "receipt_email": null,
+    "review": null,
+    "setup_future_usage": null,
+    "shipping": null,
+    "statement_descriptor": null,
+    "statement_descriptor_suffix": null,
     "status": "requires_capture",
-    "amount": 500,
-    "client_secret": "pi_client_secret_ABC"
-}
+    "transfer_data": null,
+    "transfer_group": null
+  }
